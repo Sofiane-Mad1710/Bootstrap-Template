@@ -151,9 +151,6 @@ body{
 .navbar .navbar-nav .nav-link:hover{
 	color:var(--blue-color);
 }
-.navbar .search{
-	border-left: 1px solid var(--blue-color);
-}
 .navbar .search svg{
 	color: var(--blue-color);
 }
@@ -266,5 +263,10 @@ body{
 	-ms-transform: translateX(0);
 	-o-transform: translateX(0);
 }
-/* start our work  */
+/* end our work  */
+/* start stuff   */
+.stuff .description{
+	max-width: 500px;
+}
+/* end stuff   */
 
