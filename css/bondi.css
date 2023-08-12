@@ -173,9 +173,7 @@ body{
 /* end navbar */
 /* start landing */
 .landing{
-	/*background-color: var(--dark-color);
-	*/min-height: calc(100vh - 55px);
-	/*background-image: linear-gradient(to right bottom, #19283f, #224169, #285b96, #2a78c5, #2696f7);*/
+	min-height: calc(100vh - 55px);
 	background-image: linear-gradient(rgba( 0,0,0,0.6),rgba( 0,0,0,0.4)),
   url(../images/wallpaperflare.com_wallpaper\ \(6\).jpg);
 	background-size: cover;
@@ -316,6 +314,51 @@ body{
 	-o-transform: scale(1.01);
 	box-shadow: 0px 3px 20px 0px #19283fb0;
 }
-
 /* end blog */
+/* start subscribe */
+.subscribe{
+	background-color: var(--blue-color);
+}
+.subscribe input[type="email"]{
+	border: none;
+	border-bottom: 1px solid var(--light-color);
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	caret-color:var(--dark-color);
+}
+.subscribe input[type="email"]:focus{
+	outline: none;
+	border-bottom: 1px solid var(--dark-color);
+}
+.subscribe input::placeholder{
+	color:var(--light-color);
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.subscribe input:focus::placeholder{
+	color:var(--dark-color);
+}
+.subscribe input[type="submit"]{
+	border: 1px solid var(--dark-color);
+	background-color: var(--dark-color);
+	color: var(--light-color);
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.subscribe input[type="submit"]:hover{
+	color:var(--light-color);
+	background-color: var(--blue-color);
+	border: 1px solid var(--light-color);
+
+}
+/* start subscribe */
 
